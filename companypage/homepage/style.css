@@ -15,7 +15,7 @@ h1{
     padding-bottom: 0.8em;
     margin-top: 0;
   	    font-family: 'Quicksand', sans-serif;
-     text-align: center;
+      text-align: center;
    
 }
 
@@ -124,7 +124,7 @@ h2 {
 #decorate_title{	
     color:grey;
     font-size:25px;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 42%;
     margin-top: 2em;
 	font-weight: normal;
