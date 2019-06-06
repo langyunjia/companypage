@@ -1,0 +1,362 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom:0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left:12%;
+  padding-top: 2em;
+  overflow: hidden;
+  transition: background-color 0.5s ease-out;
+
+  border-right: 1px solid #BEA2A1;
+  float: left;
+  font-size: 1em;
+  width:8em;
+  padding-top: 0.1em;
+  padding-left: 2em;
+  padding-right: 2em;
+
+  display: block;
+  color: #BEA2A1;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+.button-nav:hover, .button-nav:focus {
+  border-bottom: 2px solid #BEA2A1;
+  color: #696773;
+}
+
+
+/* Styling for the text link */
+.text-link{
+	color: #BEA2A1;
+	text-decoration:none;
+	transition: color 0.2s ease-out;
+}
+
+.text-link:hover, .text-link:focus {
+	font-style:italic;
+    color: #696773;
+}
+
+/* Styling for button submit */
+.btn-submit {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border:1px solid grey;
+	display:inline-block;
+	cursor:pointer;
+	color:#BEA2A1;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+}
+.btn-submit:hover {
+	background-color:transparent;
+}
+
+.btn-submit:active {
+	position:relative;
+	top:1px;
+}
+
+/* Styling for button reset */
+.btn-submit, .btn-reset {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border:1px solid grey;
+	display:inline-block;
+	cursor:pointer;
+	color:#BEA2A1;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+}
+.btn-submit:hover, .btn-reset:hover {
+	background-color:transparent;
+	
+}
+
+.btn-submit:active, .btn-reset:active{
+	position:relative;
+	top:1px;
+}
+
+.input-info{
+	border: 0; 
+	padding: 7px 0; 
+	border-bottom: 1px solid grey;
+	transition: background-color 0.5s ease-out;
+	}
+
+.input-info:active, .input-info:focus{
+	position:relative;
+	border: 0.5px solid grey;
+
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+/* Styling for heading one */
+.heading-one{
+	font-size:4rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Styling for heading two */
+.heading-two{
+	font-size:2rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Styling for heading three */
+.heading-three{
+	font-size:1.5rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Styling for heading paragraphs */
+.para{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bullet-lst-no-link{
+	font-family: 'Montserrat', sans-serif;
+	list-style-type:square;
+}
+
+
+.bullet-lst-with-link a{
+	font-family: 'Montserrat', sans-serif;
+	color:#BEA2A1;
+	text-decoration:none;
+}
+
+.bullet-lst-with-link a:hover, .bullet-lst-with-link a:focus{
+	display:inline-block;
+	font-family: 'Montserrat', sans-serif;
+	color:grey;
+	text-decoration-line: underline;
+	font-weight:bold;
+	padding:0.2em;
+}
+
+.numb-list{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration:none;
+	color:grey;
+}
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+.product-container{
+	display:flex;
+}
+
+.product-item{
+	
+	margin:0.8em;
+}
+
+.product-item div{
+	background-color:#FFFFFF;
+}
+
+.product-item p{
+	padding:1em 0.2em;
+	margin:0;
+}
+
+/* Style the top navigation bar */
+
+nav#menu {
+list-style-type: none;
+    padding-left:12%;
+    padding-top: 2em;
+    overflow: hidden;
+    transition: background-color 0.5s ease-out;
+}
+
+/* Style for web grid stucture */
+
+
+h1.h1_hi{	
+	font-weight: normal;
+	font-size:1em;
+	color:#FFFFFF;
+    background-color: #455A64;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 0.8em;
+   
+}
+
+ul{
+	font-family: 'Tajawal', sans-serif;
+text-align: center;
+  display:-webkit-inline-box;
+    display:-moz-inline-box;
+    display:-ms-inline-flexbox;
+    display:-webkit-inline-flex;
+    display:inline-flex;
+
+}
+
+ul#nav li{
+display: inline;
+
+}
+
+
+ul#nav{	
+
+    list-style-type: none;
+    padding-left:12%;
+    padding-top: 2em;
+    overflow: hidden;
+    transition: background-color 0.5s ease-out;
+}
+
+li.nav1{
+  border-right: 1px solid #BEA2A1;
+  float: left;
+  font-size: 1em;
+  width:8em;
+  padding-top: 0.1em;
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+
+li.nav1 a {
+    display: block;
+    color: #BEA2A1;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+li.nav1 a:hover {
+	 border-bottom: 2px solid #BEA2A1;
+     color: #696773;
+}
+
+.h2_hi {
+	color:grey;
+    font-size:70px;
+   	align-self:center;
+	font-weight: bold;
+	margin-bottom: -0.7em;
+	position:absolute;
+
+}
+
+.homepagesection{
+	display:flex;
+	flex-direction:column;
+}
+
+.homepageImg{
+	align-self:center;
+ 	margin-top: 7em;
+	width:80%;
+	height:680px;
+	
+
+}
+
+.titleImg{
+ 	margin-left: 25%;
+ 	margin-top: 3em;
+ 	margin-bottom: 3em;
+	width:720px;
+	height:480px;
+	float: left;
+
+}
+
+.footer{
+	height: 20px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	color:white;
+	clear: both;
+	width:100%;
+	bottom:0;
+    text-align: center;
+    background-color: #455A64;
+  	position: relative;
+   
+}
+
+#decorate_title{	
+    color:grey;
+    font-size:25px;
+font-family: 'Montserrat', sans-serif;
+    margin-left: 42%;
+    margin-top: 2em;
+	font-weight: normal;
+	padding-left: 0.7em;
+	margin-bottom: -0.7em;
+}
+
+#titlepageParagraph{
+
+	 color:grey;
+	width:720px;
+margin-left: 25%;
+margin-bottom: 3em;
+font-family: 'Montserrat', sans-serif;
+
+}
