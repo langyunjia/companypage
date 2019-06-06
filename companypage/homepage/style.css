@@ -1,0 +1,144 @@
+body{
+	background-color: white;
+	margin: auto;
+	border-radius: 2em;
+
+}
+
+h1{	
+	font-weight: normal;
+	font-size:3em;
+	color:black;
+    background-color: #F7F7F5;
+    padding-top: 1em;
+
+    padding-bottom: 0.8em;
+    margin-top: 0;
+  	    font-family: 'Quicksand', sans-serif;
+     text-align: center;
+   
+}
+
+.h1_title{
+font-size:0.5em;
+	color:black;
+	    background-color:#F7F7F5;
+	    font-family: 'Quicksand', sans-serif;
+
+	        text-align: center;
+	        margin-top: -5em;
+	        height:12em;
+}
+
+ul{
+	font-family: 'Tajawal', sans-serif;
+text-align: center;
+ margin-top: -5em;
+     background-color:#F7F7F5;
+
+}
+
+ul#nav li{
+display: inline;
+
+}
+
+
+ul#nav{	
+
+    list-style-type: none;
+    padding-left:18%;
+
+    overflow: hidden;
+    transition: background-color 0.5s ease-out;
+}
+
+li.nav1{
+  border-right: 0.5px solid black;
+  float: left;
+  font-size: 0.9em;
+  width:8em;
+  padding-top: 0.1em;
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+
+li.nav1 a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+li.nav1 a:hover {
+	 border-bottom: 1px solid #BEA2A1;
+     color: #BEA2A1;
+}
+
+h2 {
+	color:grey;
+    font-size:70px;
+    margin-left: 42%;
+	font-weight: bold;
+	padding-left: 0.7em;
+	margin-bottom: -0.7em;
+
+}
+
+.homepageImg{
+ 	margin-left: 8em;
+ 	margin-top: 0em;
+ 	margin-bottom: 3em;
+	width:1180px;
+	height:680px;
+	float: left;
+
+}
+
+.titleImg{
+ 	margin-left: 25%;
+ 	margin-top: 3em;
+ 	margin-bottom: 3em;
+	width:720px;
+	height:480px;
+	float: left;
+
+}
+
+.footer{
+	height: 20px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	color:black;
+	clear: both;
+	width:100%;
+	bottom:0;
+    text-align: center;
+    background-color: #F7F7F5;
+  	position: relative;
+   	margin-top: 200px;
+}
+
+#decorate_title{	
+    color:grey;
+    font-size:25px;
+font-family: 'Montserrat', sans-serif;
+    margin-left: 42%;
+    margin-top: 2em;
+	font-weight: normal;
+	padding-left: 0.7em;
+	margin-bottom: -0.7em;
+}
+
+#titlepageParagraph{
+
+	 color:grey;
+	width:720px;
+margin-left: 25%;
+margin-bottom: 3em;
+font-family: 'Open Sans', sans-serif;
+font-weight: 20px;
+
+}
